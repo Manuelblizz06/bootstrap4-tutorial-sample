@@ -1,0 +1,674 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+      
+    <link rel="stylesheet" href="css/custom-style.css" >
+
+    <!--load all Font Awesome styles -->
+      <link href="/your-path-to-fontawesome/css/all.css" rel="stylesheet">
+    
+        <!-- load all Font Awesome styles + include all v5 backwards compatibility by default -->
+        <link href="/your-path-to-fontawesome/css/all.css" rel="stylesheet">
+      
+
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    
+    <script defer src="/your-path-to-fontawesome/js/all.js"></script>
+  
+    <title>Hello, world!</title>
+  </head>
+
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <div class="container-fluid">
+          <a class="navbar-brand mb-2" href="#">
+            <img src="image/udemy_logo.png" width="100px">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 container-fluid">
+             
+             
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="bi bi-list-ul"></i> Categories
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+
+              <li class="nav-item col-5">
+                <form class="d-flex">
+                    <input class="form-control bg-light border-0" style="border-radius: 5px 0px 0px 5px;" type="search" placeholder="Search for courses" aria-label="Search">
+                    <button class="btn btn-light me-1" style="border-radius: 0px 5px 5px 0px;" type="submit"><i class="bi bi-search"></i></button>
+                  
+                </form>
+             
+              </li>    
+           
+            
+              <a class="nav-link btn btn-light mx-2" href="#" data-bs-toggle="popover" title="Try udemy for business"
+              data-bs-placement="bottom" data-bs-trigger="focus"
+              data-bs-content="Get your team access to udemy's top 2500 courses anytime, anywhere.">Udemy for Business</a>
+              <a class="nav-link btn btn-light" href="#">Become an Instructor</a>
+            
+              <a class="nav-link text-dark fw-bold" href="#">Login</a>
+              <a class="nav-link text-danger fw-bold ms-3" href="#">Signup</a>
+              </ul> 
+        </div>
+      </nav>
+
+      
+
+      <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Blizz is on stopable
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <div class="jumbotron big-banner col-md-12" style="height: 400px; padding-top: 100px;">
+    <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+     <small>Launch modal</small>  
+    </button>  
+    <div class="container">
+        <div class="row align-items-center">
+        <div class="col">
+          <div class="col-md-4 text-dark">
+            <hi class="display-5"> Hot sales- $9.99 courses!</hi>
+            <p class="lead">Get our best deal on courses</p>
+          </div>
+
+      <div class="col-md-4">
+        <form class="d-flex">
+            <input class="form-control border-end-0" style="border-radius: 5px 0px 0px 5px;" type="search" placeholder="What Do You Want To Learn?">
+            <button class="btn btn-light me-1 border-start-0" style="border-radius: 0px 5px 5px 0px;" type="submit"><i class="bi bi-search"></i></button>
+          
+        </form>
+      </div> 
+        </div>
+        </div>
+      </div>
+
+  </div>
+
+  <div class="fresh-content text-light py-1">
+      <div class="container">
+          <div class="row">
+              <div class="col-md-4">
+                <div class="d-flex align-items-center">
+                  <div class="flex-shrink-0">
+                    <div class="media">
+                      <i class="bi bi-play-circle display-5"></i>
+                    </div>
+                  </div>
+                  <div class="media body ms-3">
+                    <h5 class="mt-0">Fresh Content</h5>
+                    choose from 65,000 courses with new additinal published every month.
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="d-flex align-items-center">
+                  <div class="flex-shrink-0">
+                    <div class="media">
+                      <i class="bi bi-award display-5"></i>
+                    </div>
+                  </div>
+                  <div class="media body ms-3">
+                    <h5 class="mt-0">Trusted Instructor</h5>
+                    Take courses taught br industry experts around the world.
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="d-flex align-items-center">
+                  <div class="flex-shrink-0">
+                    <div class="media">
+                      <i class="bi bi-asterisk display-5"></i>
+                    </div>
+                  </div>
+                  <div class="media body ms-3">
+                    <h5 class="mt-0">Flexible Learning</h5>
+                    Learn on your terms with lifetime course access and the Udemy mobile app.
+                  </div>
+                </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  
+
+  <div class="container mt-4">
+    <h5 class="text-muted" ></h5>
+    <h3> 
+       <samll class="text-muted"> Top Courses in "Business" </samll>
+    </h3>
+    <div class="row row-cols-1 row-cols-md-5 g-2">
+      
+      <div class="col">
+        <div class="card h-auto">
+          <img src="image/cart-img.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h6 class="card-title">An Entire MBA in 1 Course:Award Winning...</h6>
+            <p class="card-text mb-2" style="font-size: 11px;">Chris Haruon, Complete Business...</p>
+            <p style="font-size: 11px;" >
+              <i class="bi bi-star-fill mb-1 text-warning"></i>
+              <i class="bi bi-star-fill mb-1 text-warning"></i>
+              <i class="bi bi-star-fill mb-1 text-warning"></i>
+              <i class="bi bi-star-fill mb-1 text-warning"></i>
+              <i class="bi bi-star-half mb-1 text-warning"></i>
+              4.5 (18,562)
+              <span class="d-block text-end px-2 mt-2">
+              <small style="text-decoration: line-through;" class="text-muted"> 
+                $199.99</small> (9.99)
+              </span>
+            </p> 
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </div>
+        </div>
+      </div> 
+      <div class="col">
+        <div class="card h-auto">
+          <img src="image/cart-img2.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h6 class="card-title">An Entire MBA in 1 Course:Award Winning...</h6>
+            <p class="card-text mb-2" style="font-size: 11px;">Chris Haruon, Complete Business...</p>
+            <p style="font-size: 11px;" >
+             <i class="bi bi-star-fill mb-1 text-warning"></i>
+              <i class="bi bi-star-fill mb-1 text-warning"></i>
+              <i class="bi bi-star-fill mb-1 text-warning"></i>
+              <i class="bi bi-star-fill mb-1 text-warning"></i>
+              <i class="bi bi-star-half mb-1 text-warning"></i>
+              4.5 (18,562)
+              <span class="d-block text-end px-2 mt-2">
+              <small style="text-decoration: line-through;" class="text-muted"> 
+                $199.99</small> (9.99)
+              </span>
+            </p> 
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-auto">
+          <img src="image/cart-img3.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h6 class="card-title">An Entire MBA in 1 Course:Award Winning...</h6>
+            <p class="card-text mb-2" style="font-size: 11px;">Chris Haruon, Complete Business...</p>
+            <p style="font-size: 11px;" >
+              <i class="bi bi-star-fill mb-1 text-warning"></i>
+              <i class="bi bi-star-fill mb-1 text-warning"></i>
+              <i class="bi bi-star-fill mb-1 text-warning"></i>
+              <i class="bi bi-star-fill mb-1 text-warning"></i>
+              <i class="bi bi-star-half mb-1 text-warning"></i>
+              4.5 (18,562)
+              <span class="d-block text-end px-2 mt-2">
+              <small style="text-decoration: line-through;" class="text-muted"> 
+                $199.99</small> (9.99)
+              </span>
+            </p> 
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-auto">
+          <img src="image/cart-img4.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h6 class="card-title">An Entire MBA in 1 Course:Award Winning...</h6>
+            <p class="card-text mb-2" style="font-size: 11px;">Chris Haruon, Complete Business...</p>
+            <p style="font-size: 11px;" >
+              <i class="bi bi-star-fill mb-1 text-warning"></i>
+              <i class="bi bi-star-fill mb-1 text-warning"></i>
+              <i class="bi bi-star-fill mb-1 text-warning"></i>
+              <i class="bi bi-star-fill mb-1 text-warning"></i>
+              <i class="bi bi-star-half mb-1 text-warning"></i>
+              4.5 (18,562)
+              <span class="d-block text-end px-2 mt-2">
+              <small style="text-decoration: line-through;" class="text-muted"> 
+                $199.99</small> (9.99)
+              </span>
+            </p> 
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-auto">
+          <img src="image/cart-img5.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h6 class="card-title">An Entire MBA in 1 Course:Award Winning...</h6>
+            <p class="card-text mb-2" style="font-size: 11px;">Chris Haruon, Complete Business...</p>
+            <p style="font-size: 11px;" >
+              <i class="bi bi-star-fill mb-1 text-warning"></i>
+              <i class="bi bi-star-fill mb-1 text-warning"></i>
+              <i class="bi bi-star-fill mb-1 text-warning"></i>
+              <i class="bi bi-star-fill mb-1 text-warning"></i>
+              <i class="bi bi-star-half mb-1 text-warning"></i>
+              4.5 (18,562)
+              <span class="d-block text-end px-2 mt-2">
+              <small style="text-decoration: line-through;" class="text-muted"> 
+                $199.99</small> (9.99)
+              </span>
+            </p> 
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </div>
+        </div>
+      </div>
+      
+  </div>
+</div>
+
+
+
+    
+<div class="container mt-4">
+  <h5 class="text-muted" ></h5>
+  <h3> 
+     <samll class="text-muted"> Top Courses in "Development" </samll>
+  </h3>
+  <div class="row row-cols-1 row-cols-md-5 g-2">
+    
+    <div class="col">
+      <div class="card h-auto">
+        <img src="image/cart-img.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h6 class="card-title">An Entire MBA in 1 Course:Award Winning...</h6>
+          <p class="card-text mb-2" style="font-size: 11px;">Chris Haruon, Complete Business...</p>
+          <p style="font-size: 11px;" >
+            <i class="bi bi-star-fill mb-1 text-warning"></i>
+              <i class="bi bi-star-fill mb-1 text-warning"></i>
+              <i class="bi bi-star-fill mb-1 text-warning"></i>
+              <i class="bi bi-star-fill mb-1 text-warning"></i>
+              <i class="bi bi-star-half mb-1 text-warning"></i>
+            4.5 (18,562)
+            <span class="d-block text-end px-2 mt-2">
+            <small style="text-decoration: line-through;" class="text-muted"> 
+              $199.99</small> (9.99)
+            </span>
+          </p> 
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Last updated 3 mins ago</small>
+        </div>
+      </div>
+    </div> 
+    <div class="col">
+      <div class="card h-auto">
+        <img src="image/cart-img.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h6 class="card-title">An Entire MBA in 1 Course:Award Winning...</h6>
+          <p class="card-text mb-2" style="font-size: 11px;">Chris Haruon, Complete Business...</p>
+          <p style="font-size: 11px;" >
+            <i class="bi bi-star-fill mb-1 text-warning"></i>
+              <i class="bi bi-star-fill mb-1 text-warning"></i>
+              <i class="bi bi-star-fill mb-1 text-warning"></i>
+              <i class="bi bi-star-fill mb-1 text-warning"></i>
+              <i class="bi bi-star-half mb-1 text-warning"></i>
+            4.5 (18,562)
+            <span class="d-block text-end px-2 mt-2">
+            <small style="text-decoration: line-through;" class="text-muted"> 
+              $199.99</small> (9.99)
+            </span>
+          </p> 
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Last updated 3 mins ago</small>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-auto">
+        <img src="image/cart-img.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h6 class="card-title">An Entire MBA in 1 Course:Award Winning...</h6>
+          <p class="card-text mb-2" style="font-size: 11px;">Chris Haruon, Complete Business...</p>
+          <p style="font-size: 11px;" >
+            <i class="bi bi-star-fill mb-1 text-warning"></i>
+              <i class="bi bi-star-fill mb-1 text-warning"></i>
+              <i class="bi bi-star-fill mb-1 text-warning"></i>
+              <i class="bi bi-star-fill mb-1 text-warning"></i>
+              <i class="bi bi-star-half mb-1 text-warning"></i>
+            4.5 (18,562)
+            <span class="d-block text-end px-2 mt-2">
+            <small style="text-decoration: line-through;" class="text-muted"> 
+              $199.99</small> (9.99)
+            </span>
+          </p> 
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Last updated 3 mins ago</small>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-auto">
+        <img src="image/cart-img.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h6 class="card-title">An Entire MBA in 1 Course:Award Winning...</h6>
+          <p class="card-text mb-2" style="font-size: 11px;">Chris Haruon, Complete Business...</p>
+          <p style="font-size: 11px;" >
+            <i class="bi bi-star-fill mb-1 text-warning"></i>
+              <i class="bi bi-star-fill mb-1 text-warning"></i>
+              <i class="bi bi-star-fill mb-1 text-warning"></i>
+              <i class="bi bi-star-fill mb-1 text-warning"></i>
+              <i class="bi bi-star-half mb-1 text-warning"></i>
+            4.5 (18,562)
+            <span class="d-block text-end px-2 mt-2">
+            <small style="text-decoration: line-through;" class="text-muted"> 
+              $199.99</small> (9.99)
+            </span>
+          </p> 
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Last updated 3 mins ago</small>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card h-auto">
+        <img src="image/cart-img.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h6 class="card-title">An Entire MBA in 1 Course:Award Winning...</h6>
+          <p class="card-text mb-2" style="font-size: 11px;">Chris Haruon, Complete Business...</p>
+          <p style="font-size: 11px;" >
+            <i class="bi bi-star-fill mb-1 text-warning"></i>
+              <i class="bi bi-star-fill mb-1 text-warning"></i>
+              <i class="bi bi-star-fill mb-1 text-warning"></i>
+              <i class="bi bi-star-fill mb-1 text-warning"></i>
+              <i class="bi bi-star-half mb-1 text-warning"></i>
+            4.5 (18,562)
+            <span class="d-block text-end px-2 mt-2">
+            <small style="text-decoration: line-through;" class="text-muted"> 
+              $199.99</small> (9.99)
+            </span>
+          </p> 
+        </div>
+        <div class="card-footer">
+          <small class="text-muted">Last updated 3 mins ago</small>
+        </div>
+      </div>
+    </div>
+    
+</div>
+</div>
+
+<div class="container mt-4">
+  <h3> 
+     <samll class="text-muted"> Top Courses in "Development" </samll>
+  </h3>
+  <div class="row">
+    <div class="col">
+      <a href="#"  class="btn btn-primary d-grid gap-2 col-12 mx-auto align-items-center" style="height: 60px;">Top Rated</a>
+    </div>
+    
+    <div class="col">
+      <a href="#"  class="btn btn-secondary d-grid gap-2 col-12 mx-auto align-items-center" style="height: 60px;">Trending</a>
+    </div>
+
+    <div class="col ">
+      <a href="#" class="btn btn-info d-grid gap-2 col-12 mx-auto text-light align-items-center" style="height: 60px;">New and Noteworthy</a>
+    </div>
+    
+    </div>
+</div>
+
+<div class="container mt-4">
+  <h3> 
+     <samll class="text-muted"> Achieve Your Goals" </samll>
+  </h3>
+  <div class="row">
+    <div class="col">
+      <a href="#" >
+        <figure class="figure">
+          <img src="image/laptop1.jpg" style="height: 200px; width: 400px;" class="figure-img img-fluid rounded " alt="...">
+          <figcaption class="figure-caption text-center">Expand your programming knowledge</figcaption>
+        </figure>
+      </a>
+    </div>
+    
+    <div class="col">
+      <a href="#" >
+        <figure class="figure">
+          <img src="image/woman_camera 3.jpg" style="height: 200px; width: 400px;" class="figure-img img-fluid rounded " alt="...">
+          <figcaption class="figure-caption text-center">Be your own boss</figcaption>
+        </figure>
+      </a>
+    </div>
+
+    <div class="col ">
+      <a href="#" >
+        <figure class="figure">
+          <img src="image/laptop3.webp" style="height: 200px; width: 400px;" class="figure-img img-fluid rounded " alt="...">
+          <figcaption class="figure-caption text-center">Land an exciting new tech job</figcaption>
+        </figure>
+      </a>
+    </div>
+    
+    </div>
+</div>
+      
+<div class="container mt-1">
+  <div class="row">
+    <div class="col ">
+      <a href="#" >
+        <figure class="figure">
+          <img src="image/laptop2.jpg" style="height: 130px; width: 400px;" class="figure-img img-fluid rounded " alt="...">
+          <figcaption class="figure-caption text-center">Indulge your curiousity</figcaption>
+        </figure>
+      </a>
+    </div>
+
+    <div class="col">
+      <a href="#" >
+        <figure class="figure">
+          <img src="image/student1.jpg" style="height: 130px; width: 400px;" class="figure-img img-fluid rounded " alt="...">
+          <figcaption class="figure-caption text-center">Expand your programming knowledge</figcaption>
+        </figure>
+      </a>
+    </div>
+    
+    <div class="col">
+      <a href="#" >
+        <figure class="figure">
+          <img src="image/woman_camera 2.jpg" style="height: 130px; width: 400px;" class="figure-img img-fluid rounded " alt="...">
+          <figcaption class="figure-caption text-center">Be your own boss</figcaption>
+        </figure>
+      </a>
+    </div>
+
+    <div class="col ">
+      <a href="#" >
+        <figure class="figure">
+          <img src="image/student2.jpg" style="height: 130px; width: 400px;" class="figure-img img-fluid rounded " alt="...">
+          <figcaption class="figure-caption text-center">Land an Exciting neew tech job</figcaption>
+        </figure>
+      </a>
+    </div>
+    
+    </div>
+</div>
+
+
+<div class="container mt-4">
+    <h5>
+      <samll class="text-muted"> Featured Topics" </samll>
+    </h5>  
+      <a href="#" class="btn btn-light shadow-sm text-muted mt-3">Photography</a>
+      <a href="#" class="btn btn-light shadow-sm text-muted mt-3 mx-1">Digital Marketing</a>
+      <a href="#" class="btn btn-light shadow-sm text-muted mt-3">Project Management</a>
+      <a href="#" class="btn btn-light shadow-sm text-muted mt-3 mx-1">Graphic design</a>
+      <a href="#" class="btn btn-light shadow-sm text-muted mt-3">Web design</a>
+      <a href="#" class="btn btn-light shadow-sm text-muted mt-3 mx-1">Data science</a>
+      <a href="#" class="btn btn-light shadow-sm text-muted mt-3">Python</a>
+      <a href="#" class="btn btn-light shadow-sm text-muted mt-3 mx-1">SQL</a>
+      <a href="#" class="btn btn-light shadow-sm text-muted mt-3">Piano</a>
+    
+</div>
+
+<div class="container" style="margin-top: 120px;">
+ <div class="row">
+  <div class="col text-center">
+    <div class="col-8 offset-1">
+      <h4>Become an Instructor</h4>
+      <p class="lead" style="font-size: 15px;">Teach what you love. Udemy gives you the tools to create an online course</p>
+      <a href="#" class="btn btn-lg btn-danger">Start Teaching</a>
+   </div>
+  </div>
+  
+  <div class="col text-center border-start">
+    <div class="col-8 offset-1">
+      <h4>Udemy for Business</h4>
+      <p class="lead" style="font-size: 15px;">Get unlimited access to 2,500 of Udemy's top courses for your team.</p>
+      <a href="#" class="btn btn-lg btn-danger">Get Udemy for Business</a>
+   </div>
+  </div>
+</div>
+</div>
+
+<div class="row pt-5 px-3 border-top mt-5" style="font-size: 13px;">
+  <div class="col">
+    <ul class="nav flex-column">
+      <li class="nav-item">
+        <a class="nav-link text-info" href="#"><b>Udemy for Business</b></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-info" href="#"><b>Become an Instructor</b></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-info" href="#">Mobile Apps</a>
+      </li>
+    </ul>
+  </div>
+  <div class="col">
+    <ul class="nav flex-column">
+      <li class="nav-item">
+        <a class="nav-link text-info" href="#">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-info" href="#">Careers</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-info" href="#">Blog</a>
+      </li>
+    </ul>
+  </div>
+  <div class="col">
+    <ul class="nav flex-column">
+      <li class="nav-item">
+        <a class="nav-link text-info" href="#">Topics</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-info" href="#">Support</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-info" href="#">Affiliate</a>
+      </li>
+    </ul>
+  </div>
+  <div class="col-2" >
+    <select class="form-select" style="font-size: 14px;" aria-label="Default select example">
+      <option selected><i class="bi bi-globe"></i>English</option>
+      <option value="1">Japanese</option>
+      <option value="2">Yoruba</option>
+      <option value="3">Igbo</option>
+      <option value="4">Hausa</option>
+    </select>
+  </div>
+</div>
+
+<div>
+  <nav class="nav text-bold mt-5" style="font-size: 13px;">
+    <span class="nav-link disabled">Local Homes Pages:</span>
+    <span class="nav-link text-black-50">English</span>
+    <a class="nav-link text-info" href="#">Deutsch</a>
+    <a class="nav-link text-info" href="#">Espanol</a>
+    <a class="nav-link text-info" href="#">Francias</a>
+    <a class="nav-link text-info" href="#">portugues</a>
+  </nav>
+</div>
+
+<hr/>
+
+<div class="row" style="font-size: 13px;">
+    <div class="col" style="padding-left: 30px;">
+      <img src="image/udemy_logo.png" width="100px" class="mx-3"> <span> Copyright @ 2018 Udemy,Inc.</span>
+    </div>
+    <div class="col">
+      <ul class="nav justify-content-end">
+        <li class="nav-item">
+          <a class="nav-link active text-info" href="#">Terms</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-info" href="#">Privacy and Policy</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-info" href="#">Intellectual Property</a>
+        </li>
+      </ul>
+    </div>
+</div>
+
+
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+  
+    <script>
+      var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+  return new bootstrap.Popover(popoverTriggerEl)
+})
+    </script>
+</body>
+
+
+</html>
